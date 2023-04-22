@@ -14,4 +14,25 @@ Just create the project, included in the initial commit
 
 * This section was a very simple introduction to creating a view.
 * Learning about some of the refactoring, command + click, and library (+) options provided in 
-the xCode ecosystem.
+the xCode Ecosystem.
+
+### Section 3: Modify and style views
+
+* Using spacer puts a gap between elements
+`Spacer()`
+
+* Alignment does what you epect
+   * Alignment gets appplied just to the width of the component.
+      * So text will move to the side of the vStack, not necessarily the side of the entire screen.
+```
+VStack(alignment: .leading) {}
+VStack(alignment: .trailing) {}
+```
+
+* We can just draw shapes as placeholders apparently
+```
+Circle()
+    .strokeBorder(lineWidth: 24)
+```
+
+* Padding on the top level VStack is critical.
