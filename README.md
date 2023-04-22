@@ -36,3 +36,7 @@ Circle()
 ```
 
 * Padding on the top level VStack is critical.
+
+### Section 4: Supplement accessibility data 
+
+* Added a few accessibility elements to the Meeting View
